@@ -21,6 +21,8 @@ int main()
             std::cout << "Instruções: Escolha uma opção do menu.\n";
             std::cout << "Instruções: Escolha uma opção do menu.\n";
             std::cout << "Instruções: Escolha uma opção do menu.\n";
+            std::cout << "Marcoooooooo.\n";
+
             break;
         case 3:
             std::cout << "Saindo do programa...\n";
