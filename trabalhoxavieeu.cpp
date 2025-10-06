@@ -21,16 +21,16 @@ int main()
             std::cout << "Instruções: Escolha uma opção do menu.\n";
             std::cout << "Instruções: Escolha uma opção do menu.\n";
             std::cout << "Instruções: Escolha uma opção do menu.\n";
-            std::cout << "Marcoooooooo.\n";
-            std::cout << "Marcoooooooo.\n";
-            std::cout << "Marcoooooooo.\n";
-            std::cout << "Marcoooooooo.\n";
-            std::cout << "Marcoooooooo.\n";
-            std::cout << "Marcoooooooo.\n";
-            std::cout << "Marcoooooooo.\n";
-            std::cout << "Marcoooooooo.\n";
-            std::cout << "Marcoooooooo.\n";
-            std::cout << "Marcoooooooo.\n";
+            std::cout << "Marcoooooooo1.\n";
+            std::cout << "Marcoooooooo2.\n";
+            std::cout << "Marcoooooooo3.\n";
+            std::cout << "Marcoooooooo4.\n";
+            std::cout << "Marcoooooooo5.\n";
+            std::cout << "Marcoooooooo6.\n";
+            std::cout << "Marcoooooooo7.\n";
+            std::cout << "Marcoooooooo8.\n";
+            std::cout << "Marcoooooooo9.\n";
+            std::cout << "Marcoooooooo10.\n";
 
             break;
         case 3:
