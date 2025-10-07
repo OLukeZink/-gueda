@@ -1,47 +1,4 @@
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
-
-// Jogo Quente ou Frio
-void jogoQuenteFrio() {
-    std::srand(std::time(0));
-    int numero_secreto = std::rand() % 100 + 1;
-    int tentativa;
-    int tentativas = 0;
-    int ultima_diferenca = 100;
-
-    std::cout << "\nAdivinha o numero entre 1 e 100!\n";
-    do {
-        std::cout << "Introduz a tua tentativa: ";
-        std::cin >> tentativa;
-        tentativas++;
-
-        int diferenca = std::abs(numero_secreto - tentativa);
-
-        if (tentativa == numero_secreto) {
-            std::cout << "Parabens! Acertaste em " << tentativas << " tentativas.\n";
-            break;
-        }
-
-        if (diferenca <= 5) {
-            std::cout << "Quente!\n";
-        } else if (diferenca <= 15) {
-            std::cout << "Morno!\n";
-        } else {
-            std::cout << "Frio!\n";
-        }
-
-        if (tentativas > 1) {
-            if (diferenca < ultima_diferenca)
-                std::cout << "Esta a aquecer!\n";
-            else if (diferenca > ultima_diferenca)
-                std::cout << "Esta a arrefecer!\n";
-        }
-
-        ultima_diferenca = diferenca;
-
-    } while (tentativa != numero_secreto);
-}
 
 int main()
 {
@@ -56,7 +13,7 @@ int main()
 
     switch(opcao) {
         case 1:
-            jogoQuenteFrio();
+            std::cout << "Jogo nao implementado ainda.\n";
             break;
         case 2:
             std::cout << "Instrucoes:\n";
